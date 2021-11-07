@@ -8,3 +8,6 @@
 ```
 Proof of concept: https://www.youtube.com/watch?v=ADRRLSlqAtk
 ```
+```
+First release: https://github.com/Its-Vichy/Antiskidware/releases/tag/0.0.1
+```
