@@ -28,3 +28,8 @@ Create custom bootloader in c++ / asm with game or meme (like nyan cat etc...)
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Its-Vichy/Antiskidware">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Its-Vichy/Antiskidware">
 </p>
+
+
+<!--
+  We don't need to boot os btw -> https://www.apriorit.com/dev-blog/66-develop-boot-loader
+-->
