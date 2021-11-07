@@ -12,8 +12,8 @@
 -----
 
 - [X] **Overwrite MBR**.
-- [ ] **Reboot pc**.
-- [ ] **Troll song**.
+- [X] **Reboot pc**.
+- [X] **Troll song**.
 - [ ] **Epic bootloader**.
 
 ```
