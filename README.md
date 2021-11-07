@@ -36,5 +36,5 @@ Create custom bootloader in c++ / asm with game or meme (like nyan cat etc...)
   Ref:
     - Overwrite MBR with a custom bootloader: https://github.com/sheep-o/Windows-MBR-Overwrite.
     - Download nasm: https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/ And put nasm to path.
-
+    - Beep Music: https://social.technet.microsoft.com/wiki/contents/articles/20989.music-from-the-command-line-performed-by-powershell.aspx
 -->
