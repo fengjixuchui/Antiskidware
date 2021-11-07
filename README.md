@@ -39,5 +39,5 @@ Create custom bootloader in c++ / asm with game or meme (like nyan cat etc...)
     - Beep Music: https://social.technet.microsoft.com/wiki/contents/articles/20989.music-from-the-command-line-performed-by-powershell.aspx
   
   Error fix:
-    "error: 'thread' is not a member of 'std'": https://coderedirect.com/questions/178193/mingw-error-thread-is-not-a-member-of-std
+    "error: 'thread' is not a member of 'std'"
 -->
