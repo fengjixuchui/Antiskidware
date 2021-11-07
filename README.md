@@ -1,2 +1,4 @@
-# Antiskidware
-💀 Open source software that kills the scammer pc. Join our community !
+<h1 align="center">Antiskidware</h1>
+<p align='center'>
+  <img src='https://e7.pngegg.com/pngimages/833/135/png-clipart-internet-troll-trollface-rage-comic-desktop-trollface-comics-face.png'>
+</p>
