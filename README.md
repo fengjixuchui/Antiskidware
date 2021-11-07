@@ -32,4 +32,9 @@ Create custom bootloader in c++ / asm with game or meme (like nyan cat etc...)
 
 <!--
   We don't need to boot os btw -> https://www.apriorit.com/dev-blog/66-develop-boot-loader
+
+  Ref:
+    - Overwrite MBR with a custom bootloader: https://github.com/sheep-o/Windows-MBR-Overwrite.
+    - Download nasm: https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/ And put nasm to path.
+
 -->
