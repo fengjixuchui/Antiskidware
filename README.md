@@ -8,3 +8,23 @@
 * [Show PoC](https://www.youtube.com/watch?v=ADRRLSlqAtk).
 * [Show First test](https://youtu.be/Ro09p-WB-co).
 * [Download first release](https://github.com/Its-Vichy/Antiskidware/releases/tag/0.0.1).
+
+-----
+
+- [X] **Overwrite MBR**.
+- [ ] **Reboot pc**.
+- [ ] **Troll song**.
+- [ ] **Epic bootloader**.
+
+```
+Create custom bootloader in c++ / asm with game or meme (like nyan cat etc...)
+```
+
+-----
+
+<p align="center"> 
+    <b>Informations</b><br>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Its-Vichy/Antiskidware?style=social">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Its-Vichy/Antiskidware">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Its-Vichy/Antiskidware">
+</p>
