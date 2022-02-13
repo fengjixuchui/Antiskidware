@@ -109,7 +109,7 @@ void beep_music_thread(void)
 }
 
 void console_anim_thread(void) {
-    char message[] = "You have been get pwnd by the Antiskidware,\nStop be a skid and learn to programming.\n\nYour masterboot record partition (MBR) was overwritted ! You can say 'GoodBye' to your pc..\n\nhttps://github.com/Its-Vichy/Antiskidware";
+    char message[] = "You have been get pwnd by the Antiskidware,\nStop be a skid and learn how to program.\n\nYour masterboot record partition (MBR) was overwritten ! You can say 'Goodbye' to your pc..\n\nhttps://github.com/Its-Vichy/Antiskidware";
     system("title How no pwnd :(, Have a fun to reinstalling an os");
 
     for (char& letter : message) {
